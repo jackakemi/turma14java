@@ -2,12 +2,18 @@ package lista8;
 
 public class Animal {
 	
-	public String nome;
-	public int idade;
+	private String nome;
+	private int idade;
 	
 	
 	
 	//CONSTRUTOR
+	
+	public Animal() {
+		
+	}
+	
+
 	public Animal(String nome, int idade) {
 		super();
 		this.nome = nome;
@@ -43,7 +49,7 @@ public class Animal {
 	//METODO
 	
 	public void somEmitido() {
-		System.out.println();
+		System.out.println("Que animal eu sou e qual som eu emito?");
 		
 	}
 }

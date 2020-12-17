@@ -4,6 +4,11 @@ public class Cavalo extends Animal{
 	
 	public boolean correr;
 
+	public Cavalo() {
+		
+	}
+	
+	
 	public Cavalo(String nome, int idade, boolean correr) {
 		super(nome, idade);
 		this.correr = correr;
@@ -16,7 +21,7 @@ public class Cavalo extends Animal{
 	@Override
 	
 		public void somEmitido() {
-			System.out.println("Relincha");
+			System.out.println("Seu som é a relincha.");
 			
 		}
 	
